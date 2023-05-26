@@ -6,7 +6,6 @@ import styled from 'styled-components'
 import axios from "axios";
 import {useQuery} from "react-query";
 import {useState} from "react";
-{/*<Story key={story.id} title={story.title} descendants={story.descendants} by={story.by} score={story.score} time={story.time}/>*/}
 
 function StoryList() {
 
