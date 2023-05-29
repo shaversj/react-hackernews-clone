@@ -11,12 +11,18 @@ function Header() {
                 <div className={"pl-2"}>
                     <h1 className={"font-bold md:inline"}>Hacker News</h1>
                     <div className={"text-[12.5px] md:text-[13.5px] -mt-0.5 md:inline md:pl-2"}>
-                        <button><span>new</span></button><span title={"divide"}> | </span>
-                        <button><span>past</span></button><span title={"divide"}> | </span>
-                        <button><span>comments</span></button><span title={"divide"}> | </span>
-                        <button><span>ask</span></button><span title={"divide"}> | </span>
-                        <button><span>show</span></button><span title={"divide"}> | </span>
-                        <button><span>jobs</span></button><span title={"divide"}> | </span>
+                        <button><span>topStories</span></button>
+                        <span title={"divide"}> | </span>
+                        <button><span>past</span></button>
+                        <span title={"divide"}> | </span>
+                        <button><span>comments</span></button>
+                        <span title={"divide"}> | </span>
+                        <button><span>ask</span></button>
+                        <span title={"divide"}> | </span>
+                        <button><span>show</span></button>
+                        <span title={"divide"}> | </span>
+                        <button><span>jobs</span></button>
+                        <span title={"divide"}> | </span>
                         <button><span>submit</span></button>
                     </div>
 
